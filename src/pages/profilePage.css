@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?fmaily=Poppins:weight@300;400;500;600;700;800;900&display=swap");
+
+:root {
+    --border-radius: 8px
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.body {
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+.navigation {
+    position: fixed;
+    top: 20px;
+    left: 5px;
+    bottom: 20px;
+    width: 280px;
+    box-sizing: initial;
+    border-radius: 30px;
+    border-left: 5px solid rgba(62, 95, 184, 0.849);
+    background-color: rgba(17, 54, 216, 0.829);
+    transition: width 0.5s;
+}
+
+.navigation ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 100px;
+    padding-top: 200px;
+
+}
+
+.navigation ul li {
+    position: relative;
+    list-style: none;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.navigation ul li h4 {
+    color: #d1d1d1;
+    cursor: default;
+    font-family: serif;
+}
+
+.list-active :hover {
+    background-color: white;
+    color: black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.profileactive {
+    background-color: white;
+    color: black;
+}
+
+.cominglabel {
+    margin-left: 600px;
+    margin-top: 220px;
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #d1d1d1;
+
+}
+
+
+
+
+.dropdown {
+
+    width: 200px;
+    margin-left: 83%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgb(139, 139, 139)
+}
+
+.galleryplace {
+    width: 100vw;
+}
+
+.signoutbutton {
+    background-color: #e4615f;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.signoutbox {
+    border: 1px solid black;
+    width: 20px;
+}
+
+.signoutemail {
+    font-size: 15px;
+    font-family: sans-serif;
+    color: gray;
+    margin-left: 5px;
+}
+
+.signoutname {
+    font-family: serif;
+    font-size: 20px;
+}
+
+.signoutbox {
+    width: 250px;
+
+}
+
+.navprofile {
+    display: flex;
+    cursor: pointer;
+    position: relative;
+}
+
+.dropdown ul li {
+    list-style-type: none;
+}
+
+
+.profileline {
+    width: 73%;
+    margin-left: 350px;
+
+}
+
+.profile-image {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 5px;
+
+    /* Creates the rounded profile image */
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: default;
+  
+
+}
+
+.profile-info {
+    flex: 1;
+    cursor: default;
+    /* Allows the text to expand and take remaining width */
+
+}
+
+
+.profile-info h2 {
+    font-size: 20px;
+    cursor: default;
+}
